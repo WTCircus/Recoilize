@@ -6,6 +6,18 @@ interface AtomSettingsProps {
   selected: selectedTypes[];
   setSelected: React.Dispatch<React.SetStateAction<selectedTypes[]>>;
 }
+
+/*
+ */
+// ! SUM FUNCTION IS FOR TESTING PURPOSES ONLY, SAFE TO REMOVE
+/*
+ */
+
+function sum(a, b) {
+  return a + b;
+}
+module.exports = sum;
+
 const AtomSettings: React.FC<AtomSettingsProps> = ({
   snapshotHistory,
   selected,

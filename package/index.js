@@ -16,6 +16,7 @@ let isRestoredState = false;
 let throttleTimer = 0;
 let throttleLimit = 70;
 
+// Comment out this part
 // persistedSnapshots initially null
 // let persistedSnapshots = null;
 
